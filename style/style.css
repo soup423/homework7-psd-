@@ -1,3 +1,6 @@
+body {
+	height: 2000px;
+}
 header {
 		background-image: url("../img/black-bg.png");
 		width: 1100px;
@@ -10,7 +13,7 @@ header {
 
 h1 {
 position: absolute;
-left: 64px;
+left: 66px;
 top: 71px;
 box-sizing: border-box;
 margin: 0px;
@@ -42,6 +45,10 @@ nav {
 .home {
 	color: rgb(3, 168, 230);
 }
+ul.nav a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
 .featuredContent h2 {
 	font-family: myriad-pro, sans-serif;
 	font-size: 60px;
@@ -57,7 +64,7 @@ nav {
 .featuredContent h2 span {
 	color: rgb(3, 168, 230);
 }
-.featuredContent p {
+.providing {
 	font-family: myriad-pro, sans-serif;
 	font-size: 50px;
 	line-height: 16px;
@@ -69,10 +76,337 @@ nav {
 	top: 260px;
 	left: 71px;
 }
-.border {
-	border: 1px rgb(187, 187, 187) dotted;
+.border1 {
+	border-top: 2px rgb(187, 187, 187) dotted;
 	position: absolute;
 	top: 338px;
 	left: 65px;
 	width: 966px;
+}
+.firstClass {
+	width: 962px;
+	font-family: myriad-pro, sans-serif;
+	font-size: 34px;
+	line-height: 42px;
+	font-weight:normal;
+	text-align:left;
+	letter-spacing: -2.3px;
+	position: absolute;
+	color:rgb(85, 85, 85);
+	margin: 0px;
+	top: 377px;
+	left: 68px;
+}
+.border2 {
+	border-top: 2px rgb(187, 187, 187) dotted;
+	position: absolute;
+	top: 526px;
+	left: 65px;
+	width: 966px;
+}
+.services{
+		color: rgb(255, 255, 255);
+}
+.service1 {
+	position: absolute;
+	top: 574px;
+	left: 67px;
+	background-color: rgb(0, 174, 239);
+	width: 283px;
+	height: 351px;
+	box-shadow: 6px 6px 7px 2px rgba(34, 60, 80, 0.2);
+
+}
+div.webDesign {
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	line-height: 40px;
+	font-family: myriad-pro, sans-serif;
+	border-bottom: 1px rgb(187, 187, 187) dotted;
+	padding: 26px 0px 15px 0px;
+	margin: 0px 23px 0px 23px;
+}
+p.webDesign{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: regular;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	padding: 0px 26px 0px 26px;
+}
+button.webDesign {
+	text-align: center;
+	font-family: myriad-pro, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	background-color: rgb(0, 118, 163);
+	box-shadow: 0px 0px 2px 4px rgba(34, 60, 80, 0.2) inset;
+	color: white;
+	border:none;
+	width: 232px;
+	height: 41px;
+	position:relative;
+	top: 20px;
+	left: 25px;
+	letter-spacing: -1.3px;
+}
+.service2 {
+	position: absolute;
+	top: 574px;
+	left: 409px;
+	background-color: rgb(0, 174, 239);
+	width: 283px;
+	height: 351px;
+	box-shadow: 6px 6px 7px 2px rgba(34, 60, 80, 0.2);
+
+}
+div.marketing {
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	line-height: 40px;
+	font-family: myriad-pro, sans-serif;
+	border-bottom: 1px rgb(187, 187, 187) dotted;
+	padding: 26px 0px 15px 0px;
+	margin: 0px 23px 0px 23px;
+}
+p.marketing{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: regular;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	padding: 0px 26px 0px 26px;
+}
+button.marketing {
+	text-align: center;
+	font-family: myriad-pro, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	background-color: rgb(0, 118, 163);
+	box-shadow: 0px 0px 2px 4px rgba(34, 60, 80, 0.2) inset;
+	color: white;
+	border:none;
+	width: 232px;
+	height: 41px;
+	position:relative;
+	top: 20px;
+	left: 25px;
+	letter-spacing: -1.3px;
+}
+.service3 {
+	position: absolute;
+	top: 574px;
+	left: 750px;
+	background-color: rgb(0, 174, 239);
+	width: 283px;
+	height: 351px;
+	box-shadow: 6px 6px 7px 2px rgba(34, 60, 80, 0.2);
+
+}
+div.optimization{
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	line-height: 40px;
+	font-family: myriad-pro, sans-serif;
+	border-bottom: 1px rgb(187, 187, 187) dotted;
+	padding: 26px 0px 15px 0px;
+	margin: 0px 23px 0px 23px;
+}
+p.optimization{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: regular;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	padding: 0px 26px 0px 26px;
+}
+button.optimization {
+	text-align: center;
+	font-family: myriad-pro, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	background-color: rgb(0, 118, 163);
+	box-shadow: 0px 0px 2px 4px rgba(34, 60, 80, 0.2) inset;
+	color: white;
+	border:none;
+	width: 232px;
+	height: 41px;
+	position:relative;
+	top: 20px;
+	left: 25px;
+	letter-spacing: -1.3px;
+}
+.additionalInfo {
+	border-top: 2px rgb(187, 187, 187) dotted;
+	border-bottom: 2px rgb(187, 187, 187) dotted;;
+	position: absolute;
+	top: 973px;
+	left: 62px;
+	border-top: 2px rgb(187, 187, 187) dotted;
+	display: grid;
+	grid-template-columns: 480px 0px 480px;
+	padding-bottom: 33px;
+}
+
+p.clientTestimotionials {
+	font-family: myriad-pro, sans-serif;
+	font-size: 24px;
+	line-height: 42px;
+	color: rgb(85, 85, 85);
+}
+div.testmonial1Text {
+position: absolute;
+left: 110px;
+top: 84px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+line-height: 21px;
+color: rgb(85, 85, 85);
+width: 338px;
+text-align: left;
+padding-right: 30px;
+
+}
+div.photo1 {
+	width: 84px;
+	height: 84px;
+	background-color: rgb(204, 204, 204);
+}
+.testmonial1Author{
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	color:rgb(85, 85, 85);
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	text-align: left;
+	left: 110px;
+top: 125px;
+	
+}
+.testmonial1Author a {
+	color: rgb(0, 174, 239);
+	font-weight: normal;
+}
+div.testmonial2Text {
+	position: absolute;
+	left: 110px;
+	top: 206px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	color: rgb(85, 85, 85);
+	width: 338px;
+	text-align: left;
+	padding-right: 30px;
+	
+	}
+div.photo2 {
+		margin-top: 38px;
+		width: 84px;
+		height: 84px;
+		background-color: rgb(204, 204, 204);
+	}
+.testmonial2Author{
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	color:rgb(85, 85, 85);
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	text-align: left;
+	left: 110px;
+	top: 247px;	
+}
+.testmonial2Author a {
+	color: rgb(0, 174, 239);
+	font-weight: normal;
+}
+	div.testmonial3Text {
+	position: absolute;
+	left: 110px;
+	top: 328px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	color: rgb(85, 85, 85);
+	width: 338px;
+	text-align: left;
+	padding-right: 30px;
+}
+div.photo3 {
+	margin-top: 38px;
+	width: 84px;
+	height: 84px;
+	background-color: rgb(204, 204, 204);
+}
+.testmonial3Author{
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	color:rgb(85, 85, 85);
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	text-align: left;
+	left: 110px;
+	top: 369px;
+	}	
+.testmonial3Author a {
+	color: rgb(0, 174, 239);
+	font-weight: normal;
+}
+.additionalInfoBorder{
+	margin-top: 32px;
+	border-left: 2px rgb(187, 187, 187) dotted;
+}
+div.featuredProject{
+	margin-left: 46px;
+}
+p.featuredProject {
+	font-family: myriad-pro, sans-serif;
+	font-size: 24px;
+	line-height: 42px;
+	color: rgb(85, 85, 85);
+	margin-bottom: 18px;
+}
+p.yoshi {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 16px;
+	color: rgb(136, 136, 136);
+
+}
+div.yoshiDescription {
+	font-weight: normal;
+	font-size: 14px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 21px;
+	color: rgb(85, 85, 85);
+	width: 435px;
+}
+.featuredProject a {
+	font-weight: normal;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px;
+	color: rgb(0, 174, 239);
+}
+footer {
+	position: absolute;
+	left: 63px;
+	top: 1449px
+}
+p.footer {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 16px;
+	color: rgb(136, 136, 136);
 }
