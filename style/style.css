@@ -42,12 +42,13 @@ nav {
 .nav>li {
 	display: inline;
 }
-.home {
-	color: rgb(3, 168, 230);
-}
+
 ul.nav a {
 	color: rgb(255, 255, 255);
 	text-decoration: none;
+}
+ul.nav a.home {
+	color: rgb(3, 168, 230);
 }
 .featuredContent h2 {
 	font-family: myriad-pro, sans-serif;
